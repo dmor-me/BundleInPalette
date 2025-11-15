@@ -1,5 +1,9 @@
 # Bundle In Palette
 
+<p align="center">
+  <img src="assets/BIP Banner.png" width="100%">
+</p>
+
 Bundle In Palette adds sixteen dyed variants of the vanilla bundle so you can color-code your inventory and storage.  
 This mod **requires [Bundle In Creative](https://github.com/dmor-me/BundleInCreative)** (or any mod that restores the vanilla bundle recipe) so the new dyes have something to tint.
 
@@ -42,3 +46,7 @@ This project is released under the MIT License. See [`LICENSE`](LICENSE) for det
   - Shared issue tracker: <https://github.com/dmor-me/BundleInCreative/issues>
 
 Enjoy organizing your palettes!
+
+<p align="center">
+  <img src="assets/BundleInPalette.png" width="10%">
+</p>
