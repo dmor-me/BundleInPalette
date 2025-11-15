@@ -1,28 +1,28 @@
 # Bundle In Palette
 
-Bundle In Palette adds sixteen dyed variants of the vanilla bundle so you can color‑code your inventory and storage.  
-This mod **requires [Bundle In Creative](https://github.com/dmor-me/BundleInCreative)** or any Bundle recipe mod, which unhides the vanilla bundle item so the new recipes have something to work with.
+Bundle In Palette adds sixteen dyed variants of the vanilla bundle so you can color-code your inventory and storage.  
+This mod **requires [Bundle In Creative](https://github.com/dmor-me/BundleInCreative)** (or any mod that restores the vanilla bundle recipe) so the new dyes have something to tint.
 
 ## Features
-- 16 fully textured bundle variants covering every vanilla dye color.
-- Simple shapeless recipes: combine a vanilla bundle with any dye to recolor it.
-- Automatically injected into the Tools & Utilities creative tab for quick access.
-- All bundles (vanilla + dyed) share the `forge:bundles` item tag for datapack/mod compatibility.
-- Built for Minecraft **1.20.1** with **Forge 47.4.10**.
+- 16 bespoke bundle textures covering every vanilla dye color.
+- Shapeless recipes: combine one vanilla bundle with any dye to recolor it.
+- Automatically injected into the Tools & Utilities creative tab.
+- All bundles (vanilla + dyed) share the `forge:bundles` item tag for compatibility.
+- Target platform: Minecraft **1.20.1** / Forge **47.x**.
 
 ## Crafting
 ```
 Bundle + Any Dye -> Matching Dyed Bundle
 ```
-The recipes unlock after you acquire at least one vanilla bundle.
+Recipes unlock once you obtain at least one vanilla bundle.
 
 ## Installation
-1. Install Minecraft Forge 1.20.1 (47.x series).
+1. Install Minecraft Forge 1.20.1 (47.x line).
 2. Download the latest releases of:
    - [Bundle In Creative](https://github.com/dmor-me/BundleInCreative/releases)
-   - Bundle In Palette (this project) from the Releases tab.
-3. Place both `.jar` files inside your Minecraft `mods` folder.
-4. Launch Minecraft with the Forge profile.
+   - Bundle In Palette (this repository’s Releases tab).
+3. Drop both `.jar` files into your Minecraft `mods` folder.
+4. Launch Minecraft using the Forge profile.
 
 ## Developing / Building
 ```bash
@@ -30,4 +30,15 @@ git clone https://github.com/dmor-me/BundleInPalette.git
 cd BundleInPalette/BundleInPalette
 ./gradlew build
 ```
-The built jar can be found under `BundleInPalette/BundleInPalette/build/libs/`.
+Artifacts are produced in `BundleInPalette/BundleInPalette/build/libs/`.
+
+## License
+This project is released under the MIT License. See [`LICENSE`](LICENSE) for details.
+
+## Credits & Links
+- **dmor-me** – concept, textures, and mod author.
+  - Bundle In Palette repo: <https://github.com/dmor-me/BundleInPalette>
+  - Bundle In Creative repo: <https://github.com/dmor-me/BundleInCreative>
+  - Shared issue tracker: <https://github.com/dmor-me/BundleInCreative/issues>
+
+Enjoy organizing your palettes!
