@@ -1,0 +1,22 @@
+{
+    "replace":  false,
+    "values":  [
+                   "minecraft:bundle",
+                   "bundleinpalette:white_bundle",
+                   "bundleinpalette:orange_bundle",
+                   "bundleinpalette:magenta_bundle",
+                   "bundleinpalette:light_blue_bundle",
+                   "bundleinpalette:yellow_bundle",
+                   "bundleinpalette:lime_bundle",
+                   "bundleinpalette:pink_bundle",
+                   "bundleinpalette:gray_bundle",
+                   "bundleinpalette:light_gray_bundle",
+                   "bundleinpalette:cyan_bundle",
+                   "bundleinpalette:purple_bundle",
+                   "bundleinpalette:blue_bundle",
+                   "bundleinpalette:brown_bundle",
+                   "bundleinpalette:green_bundle",
+                   "bundleinpalette:red_bundle",
+                   "bundleinpalette:black_bundle"
+               ]
+}

@@ -1,0 +1,15 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:bundle"
+                        },
+                        {
+                            "item":  "minecraft:light_blue_dye"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "item":  "bundleinpalette:light_blue_bundle"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

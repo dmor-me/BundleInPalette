@@ -1,0 +1,15 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:bundle"
+                        },
+                        {
+                            "item":  "minecraft:lime_dye"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "item":  "bundleinpalette:lime_bundle"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

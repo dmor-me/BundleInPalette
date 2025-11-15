@@ -1,0 +1,15 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:bundle"
+                        },
+                        {
+                            "item":  "minecraft:gray_dye"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "item":  "bundleinpalette:gray_bundle"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

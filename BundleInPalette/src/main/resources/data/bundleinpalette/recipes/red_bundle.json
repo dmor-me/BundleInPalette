@@ -1,0 +1,15 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:bundle"
+                        },
+                        {
+                            "item":  "minecraft:red_dye"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "item":  "bundleinpalette:red_bundle"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

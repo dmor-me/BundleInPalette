@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/dmor-me/BundleInPalette/issues"
+
+[[mods]]
+modId="bundleinpalette"
+version="1.0.0"
+displayName="Bundle In Palette"
+credits=""
+authors="BundleInPalette"
+description='''Adds a full palette of dyed bundles that build on Bundle In Creative.'''
+
+[[dependencies.bundleinpalette]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bundleinpalette]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bundleinpalette]]
+modId="bundleincreative"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="AFTER"
+side="BOTH"

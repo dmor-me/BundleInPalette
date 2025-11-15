@@ -1,0 +1,15 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:bundle"
+                        },
+                        {
+                            "item":  "minecraft:yellow_dye"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "item":  "bundleinpalette:yellow_bundle"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

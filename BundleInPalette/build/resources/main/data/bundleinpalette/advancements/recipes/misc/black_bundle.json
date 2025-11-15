@@ -1,0 +1,34 @@
+{
+    "criteria":  {
+                     "has_bundle":  {
+                                        "trigger":  "minecraft:inventory_changed",
+                                        "conditions":  {
+                                                           "items":  [
+                                                                         {
+                                                                             "items":  [
+                                                                                           "minecraft:bundle"
+                                                                                       ]
+                                                                         }
+                                                                     ]
+                                                       }
+                                    },
+                     "has_the_recipe":  {
+                                            "trigger":  "minecraft:recipe_unlocked",
+                                            "conditions":  {
+                                                               "recipe":  "bundleinpalette:black_bundle"
+                                                           }
+                                        }
+                 },
+    "parent":  "minecraft:recipes/root",
+    "rewards":  {
+                    "recipes":  [
+                                    "bundleinpalette:black_bundle"
+                                ]
+                },
+    "requirements":  [
+                         [
+                             "has_bundle",
+                             "has_the_recipe"
+                         ]
+                     ]
+}
