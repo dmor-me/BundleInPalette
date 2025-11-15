@@ -1,4 +1,4 @@
-# Bundle In Palette
+# Bundle In Palette (Forge 1.20.1)
 
 <p align="center">
   <img src="assets/BIP Banner.png" width="100%">
