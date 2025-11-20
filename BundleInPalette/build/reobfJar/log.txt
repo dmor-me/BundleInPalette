@@ -134,6 +134,9 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\dmorh\Documents\GitHub\BundleInPalette\BundleInPalette\build\libs\bundleinpalette-1.0.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for com/bundleinpalette/client/BundleInPaletteConfigScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/Screen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for com/bundleinpalette/client/BundleInPaletteConfigScreen/onClose()V from net/minecraft/client/gui/screens/Screen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for com/bundleinpalette/client/BundleInPaletteConfigScreen/init()V from net/minecraft/client/gui/screens/Screen/init()V: init -> m_7856_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
@@ -181,9 +184,23 @@ Writing Output: C:\Users\dmorh\Documents\GitHub\BundleInPalette\BundleInPalette\
   assets/bundleinpalette/textures/item/red_bundle.png
   assets/bundleinpalette/textures/item/white_bundle.png
   assets/bundleinpalette/textures/item/yellow_bundle.png
+  assets/minecraft/
+  assets/minecraft/models/
+  assets/minecraft/models/item/
+  assets/minecraft/models/item/bundle.json
+  assets/minecraft/models/item/bundle_full.json
+  assets/minecraft/textures/
+  assets/minecraft/textures/item/
+  assets/minecraft/textures/item/bundle.png
+  assets/minecraft/textures/item/bundle_overlay.png
   com/
   com/bundleinpalette/
+  com/bundleinpalette/BundleInPalette$ClientEvents.class
   com/bundleinpalette/BundleInPalette.class
+  com/bundleinpalette/client/
+  com/bundleinpalette/client/BundleInPaletteConfigScreen.class
+  com/bundleinpalette/config/
+  com/bundleinpalette/config/ModClientConfig.class
   com/bundleinpalette/registry/
   com/bundleinpalette/registry/ModItems.class
   data/

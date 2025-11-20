@@ -11,6 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Collection;
 import java.util.EnumMap;
+import java.util.Map;
 
 public final class ModItems {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BundleInPalette.MOD_ID);
@@ -40,5 +41,14 @@ public final class ModItems {
 
     public static RegistryObject<Item> getBundle(DyeColor color) {
         return DYED_BUNDLES.get(color);
+    }
+
+    public static DyeColor getColorForItem(Item item) {
+        for (Map.Entry<DyeColor, RegistryObject<Item>> entry : DYED_BUNDLES.entrySet()) {
+            if (entry.getValue().get() == item) {
+                return entry.getKey();
+            }
+        }
+        return null;
     }
 }
