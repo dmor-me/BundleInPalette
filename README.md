@@ -14,9 +14,17 @@ This mod **requires [Bundle In Creative](https://github.com/dmor-me/BundleInCrea
 - All bundles (vanilla + dyed) share the `forge:bundles` item tag for compatibility.
 - Target platform: Minecraft **1.20.1** / Forge **47.x**.
 
-## Optional tooltip tinting
+## Optional Tooltip Tinting
 - Dyed bundles can tint their tooltip background to match their dye. This is **off by default** to keep vanilla styling.
-- Enable in-game via Mods list -> Bundle In Palette -> Config, or with a config UI mod like Configured. You can also edit `config/bundleinpalette-client.toml` (`dyedBundleTooltipColors=true`).
+- Enable via configs with a config UI mod like Configured. You can also edit `config/bundleinpalette-client.toml` (`dyedBundleTooltipColors=true`).
+
+<p align="center">
+  <img src="assets/BIP Tooltips.gif" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/BIP Configs.png" width="50%">
+</p>
 
 ## Crafting
 ```
