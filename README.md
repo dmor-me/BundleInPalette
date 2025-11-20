@@ -16,7 +16,7 @@ This mod **requires [Bundle In Creative](https://github.com/dmor-me/BundleInCrea
 
 ## Optional tooltip tinting
 - Dyed bundles can tint their tooltip background to match their dye. This is **off by default** to keep vanilla styling.
-- Enable in-game via Mods list → Bundle In Palette → Config, or edit `config/bundleinpalette-client.toml` (`dyedBundleTooltipColors=true`).
+- Enable in-game via Mods list -> Bundle In Palette -> Config, or with a config UI mod like Configured. You can also edit `config/bundleinpalette-client.toml` (`dyedBundleTooltipColors=true`).
 
 ## Crafting
 ```
@@ -54,3 +54,4 @@ Enjoy organizing your palettes!
 <p align="center">
   <img src="assets/BundleInPalette.png" width="10%">
 </p>
+
