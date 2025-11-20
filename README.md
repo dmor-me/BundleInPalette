@@ -14,6 +14,10 @@ This mod **requires [Bundle In Creative](https://github.com/dmor-me/BundleInCrea
 - All bundles (vanilla + dyed) share the `forge:bundles` item tag for compatibility.
 - Target platform: Minecraft **1.20.1** / Forge **47.x**.
 
+## Optional tooltip tinting
+- Dyed bundles can tint their tooltip background to match their dye. This is **off by default** to keep vanilla styling.
+- Enable in-game via Mods list → Bundle In Palette → Config, or edit `config/bundleinpalette-client.toml` (`dyedBundleTooltipColors=true`).
+
 ## Crafting
 ```
 Bundle + Any Dye -> Matching Dyed Bundle
